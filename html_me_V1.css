@@ -1,0 +1,36 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color:red;
+    color: white;
+}
+/*BG IMAGE*/
+body {
+    margin:0;
+    background-image: url("/Users/mikerosbrough/Documents/lc101/html-me-something/html-me-something/images/dd.jpg");
+    background-size: cover; background-repeat: no-repeat;
+}
+<div class="topnav">
+  <a class="active" href="file:///Users/mikerosbrough/Documents/lc101/html-me-something/html-me-something/index.html">Home</a>
+
+  <a href="file:///Users/mikerosbrough/Documents/lc101/html-me-something/html-me-something/contact.html">Contact</a>
+  <a href="file:///Users/mikerosbrough/Documents/lc101/html-me-something/html-me-something/about.html">About</a>
+</div>
